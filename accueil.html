@@ -1,39 +1,84 @@
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>accueil</title>
-	</head>
-	<body>
-		<header>
-			<nav>
-			<a href="accueil.html">Accueil</a>
-			<a href="parcoursacademique.html">Parcours Academique</a>
-			<a href="experience.html">Experience</a>
-			<a href="contact.html">Contact</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<!-- SECTION: Splashscreen -->
+	<div class="splashscreen">
+		<div class="preloader">
+			<span class="preloader__text">Loading</span>
+		</div>
+	</div>
+	<!-- END SECTION: Splashscreen -->
+	
+	<!-- SECTION: Intro -->
+	<header class="header">
+		<!-- SECTION: Navigation -->
+	<div id="top" class="navigation">
+		<div class="navigation__wrapper wrapper--large">
+			<a class="navigation__logo logo" href="#0">Logo</a>
+			<nav class="navigation__container">
+				<ul class="navigation__list">
+					<li><a href="accueil.html">Home</a></li>
+					<li><a href="parcours.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
 			</nav>
-			<hr>
-		</header>
-		<section>
-		<br> 
-		
-		<h3>A propos linformatique</h3>
-			<table>
-				<td><img src="image/4.jpg" width="120" height="120"></td><td>Les métiers de l’informatique sont dans les plus recherchés du monde, et également en France. Indispensables aujourd’hui, le domaine est très compétitif. Armez-vous d’un CV au top.</td>
-				</tr>
-			</table>
-		<p>Les développeurs/développeuses sont les nouveaux kings et queens du marché de l’emploi.Selon une étude RegionsJob de 2018, développeur serait le métier le plus courtisé de France ! Et, avec le développement rapide des nouvelles technologies, cela n’est pas prêt de s’arrêter.Mais cela ne signifie pas que trouver un emploi dans ce domaine soit facile</p>
-			<table>
-				<tr>
-					<td><img src="image/fb.jpg" width="15" height="15"></td><td><a href="https://www.facebook.com/">facebook</a></td>
-				</tr>
-				<tr>
-				<td><img src="image/insta.jpg" width="18" height="15"></td><td><a href="https://www.instagram.com/?hl=en">instagram</a></td>
-				</tr>
-			</table>
-				<hr>
+			
+			
+		</div>
+	</div>
+	<!-- END SECTION: Navigation -->
+	</header>
+	<!-- END SECTION: Intro -->
+	<main role="main">
+		<!-- SECTION: About -->
+		<section class="about">
+					
+			
 		</section>
-		<footer>
-		Copyright 2023
-		</footer>
-	</body>
+		<!-- END SECTION: About -->
+		
+		
+		<!-- SECTION: Work -->
+		<section id="work" class="work">
+			<h2 class="work__heading title">Latest Projects</h2>
+			
+		</section>
+		<!-- END SECTION: Work -->
+		
+		<!-- SECTION: Contact -->
+		<section id="contact" class="contact">
+			<h2 class="contact__heading title">Contact Me</h2>
+			<div class="contact__wrapper wrapper--large">
+				<div class="contact__visual">
+					<img src="img/contact-visual.png" >
+				</div>
+				<!-- Simple form setup: formspree.io -->
+				<form class="contact__form">
+					<input class="contact__form-el contact__form-el--name" type="text" placeholder="Your Name" spellcheck="false">
+					<input class="contact__form-el contact__form-el--email" type="email" placeholder="Your Email" spellcheck="false">
+					<textarea class="contact__form-el contact__form-el--message" placeholder="Your Message"></textarea>
+					<input class="contact__form-el contact__form-el--submit" type="submit" value="Send">
+				</form>
+			</div>
+		</section>
+		<!-- END SECTION: Contact -->
+	</main>
+	<!-- SECTION: Footer -->
+	<footer class="footer">
+		<div class="footer__wrapper wrapper--large">
+			<p class="footer__copyright no-margin">&copy; 2022 -Esprit</p>
+			
+		</div>
+	</footer>
+	<!-- END SECTION: Footer -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/functions-min.js"></script>
+
+</body>
 </html>
